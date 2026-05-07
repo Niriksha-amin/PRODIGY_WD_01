@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* Smooth Scroll */
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+/* NAVBAR GLASS */
+#navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(12px);
+    box-shadow:0 4px 30px rgba(0,0,0,0.4);
+    z-index:1000;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#e2e8f0;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    color:#cbd5e1;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#7dd3fc;
+}
+
+/* SECTIONS */
+.section{
+    min-height:100vh;
+    padding-top:120px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* HERO */
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    margin-top:10px;
+    color:#cbd5e1;
+}
+
+/* BUTTON */
+button{
+    margin-top:25px;
+    padding:12px 28px;
+    border:none;
+    border-radius:30px;
+    background:#38bdf8;
+    color:#0f172a;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#7dd3fc;
+}
+
+/* GLASS CARDS */
+.card{
+    width:70%;
+    margin:auto;
+    padding:40px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    box-shadow:0 10px 40px rgba(0,0,0,0.5);
+}
+
+h2{
+    color:#7dd3fc;
+    margin-bottom:15px;
+}
